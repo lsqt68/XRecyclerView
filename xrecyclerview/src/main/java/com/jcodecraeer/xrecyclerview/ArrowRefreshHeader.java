@@ -129,6 +129,10 @@ public class ArrowRefreshHeader extends LinearLayout implements BaseRefreshHeade
         }
     }
 
+    public TextView getStatusTextView(){
+	return mStatusTextView;
+    }
+	
     public void setArrowImageView(int resid){
         mArrowImageView.setImageResource(resid);
     }
